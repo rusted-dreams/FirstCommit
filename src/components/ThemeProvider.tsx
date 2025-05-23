@@ -18,13 +18,13 @@ export const useTheme = () => {
 };
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
-  const [theme, setTheme] = useState<Theme>("light");
+  const [theme, setTheme] = useState<Theme>("dark");
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") as Theme;
     if (savedTheme) {
       setTheme(savedTheme);
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    } else {
       setTheme("dark");
     }
   }, []);

@@ -46,7 +46,7 @@ const NavBar = () => {
               Guide
             </Link>
             <a
-              href="https://github.com/your-username/FirstCommit"
+              href="https://github.com/rusted-dreams/FirstCommit"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-1 text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
@@ -102,7 +102,7 @@ const NavBar = () => {
                 Guide
               </Link>
               <a
-                href="https://github.com/your-username/FirstCommit"
+                href="https://github.com/rusted-dreams/FirstCommit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-1 px-3 py-2 text-gray-700 dark:text-gray-300 text-sm font-medium"

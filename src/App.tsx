@@ -4,6 +4,7 @@ import { ThemeProvider } from "./components/ThemeProvider";
 import { Toaster as Sonner } from "./components/ui/sonner";
 import { TooltipProvider } from "./components/ui/tooltip";
 import Homepage from "./pages/Homepage";
+import NotFound from "./pages/NotFound";
 function App() {
   return (
     <ThemeProvider>
@@ -14,7 +15,7 @@ function App() {
             <Route path="/" element={<Homepage />} />
             {/* <Route path="/guide" element={<Guide />} /> */}
             {/* <Route path="/certificate/:username" element={<Certificate />} /> */}
-            {/* <Route path="*" element={<NotFound />} /> */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
